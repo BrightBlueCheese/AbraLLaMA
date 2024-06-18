@@ -131,5 +131,5 @@ def get_pretrained_model(
         subprocess.run(['git', 'clone', repo_url, destination_dir], check=True)
         print("Cloning successful!")
     finally:
-        print(f"Cloning sucessful? - {os.path.isdir(destination_dir}")
+        print(f"Cloning sucessful? - {os.path.isdir(destination_dir)}")
     
